@@ -54,9 +54,7 @@ public class triangoloEquilatero extends Application {
 		double area;
 		double lato= Integer.parseInt(tLato.getText());
 		double altezza= Integer.parseInt(tAltezza.getText());
-		
-		String risposta="";
-		
+
 		area= (lato*altezza)/2;
 		risposta=""+area;
 		lRisultato.setText(risposta);
