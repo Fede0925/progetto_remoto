@@ -41,15 +41,7 @@ public class triangoloEquilatero extends Application {
 				
 		
 	}
-	public void perimetro() {
-		double perimetro;
-		double lato= Integer.parseInt(tLato.getText());	
-		String risposta="";
-		
-		perimetro= (lato*3);
-		risposta=""+perimetro;
-		lRisultato.setText(risposta);	
-	}
+
 	public void area() {
 		double area;
 		double lato= Integer.parseInt(tLato.getText());
